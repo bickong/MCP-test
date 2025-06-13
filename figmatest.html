@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1440" />
+  <title>Landing Page</title>
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,500,600,700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #fff;
+      color: #000;
+    }
+    .header {
+      width: 100%;
+      background: #fff;
+      padding: 32px 0 0 0;
+    }
+    .site-name {
+      font-size: 20px;
+      font-weight: 500;
+      margin-left: 64px;
+      color: #000;
+    }
+    .nav {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 32px;
+      margin-right: 64px;
+      margin-top: -30px;
+    }
+    .nav a {
+      color: #000;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 500;
+    }
+    .nav .button {
+      background: #000;
+      color: #fff;
+      border-radius: 8px;
+      padding: 12px 32px;
+      font-size: 16px;
+      font-weight: 500;
+      border: none;
+      cursor: pointer;
+    }
+    .hero {
+      width: 100%;
+      height: 640px;
+      background: #eee url('https://via.placeholder.com/1280x640') center/cover no-repeat;
+      border-radius: 8px;
+      margin: 32px auto 0 auto;
+      max-width: 1280px;
+      display: flex;
+      align-items: flex-end;
+      position: relative;
+    }
+    .hero-content {
+      position: absolute;
+      left: 64px;
+      bottom: 64px;
+      color: #000;
+      background: rgba(255,255,255,0.8);
+      padding: 32px;
+      border-radius: 8px;
+      max-width: 700px;
+    }
+    .hero-title {
+      font-size: 64px;
+      font-weight: 700;
+      margin-bottom: 16px;
+      letter-spacing: -1.28px;
+    }
+    .hero-subtitle {
+      font-size: 24px;
+      font-weight: 400;
+      opacity: 0.75;
+      margin-bottom: 32px;
+    }
+    .hero-content .button {
+      background: #000;
+      color: #fff;
+      border-radius: 8px;
+      padding: 16px 40px;
+      font-size: 24px;
+      font-weight: 500;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="site-name">Site name</div>
+    <nav class="nav">
+      <a href="#">Page</a>
+      <a href="#">Page</a>
+      <a href="#">Page</a>
+      <button class="button">Button</button>
+    </nav>
+  </header>
+  <section class="hero">
+    <!-- 실제 이미지는 Figma에서 export 받아서 넣으세요 -->
+    <div class="hero-content">
+      <div class="hero-title">Landing page title</div>
+      <div class="hero-subtitle">Subheading that sets up context, shares more info about the website, or generally gets people psyched to keep scrolling.</div>
+      <button class="button">Button</button>
+    </div>
+  </section>
+</body>
+</html>
